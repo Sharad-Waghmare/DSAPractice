@@ -1,5 +1,5 @@
-// // conver array to string 
-// if numer is less than 0 add 0 to string
+// // convert array to string 
+// if num is less than 0 add 0 to string
 
  const input1=[2,-4,6,8,-9]
 const input2=[1,2,3,4]
@@ -29,19 +29,36 @@ const input2=[1,2,3,4]
 
 
 
+// function arraytostriNg(arr){
+//     var str=""
+// for(i=0; i<arr.length; i++){
+//     if(arr[i]>0){
+//         str = str + arr[i]
+//     }
+//     else{
+//         str = str + 0
+//     }
+// }
+// console.log(str)
+// }
+
+// arraytostriNg([2,-2,3,5])
+
+
 function arraytostriNg(arr){
     var str=""
-for(i=0; i<arr.length; i++){
-    if(arr[i]>0){
-        str = str + arr[i]
-    }
-    else{
-        str = str + 0
-    }
-}
+    let i =0;
+    while(i < arr.length){
+        i++;
+        if(arr[i] >0){
+            str = str + arr[i]
+        }
+        else{
+            str = str + 0
+        }
 console.log(str)
+    }
 }
-
 arraytostriNg([2,-2,3,5])
 
 
