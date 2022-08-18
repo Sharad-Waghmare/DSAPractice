@@ -15,6 +15,7 @@ function str(arr){
         }
         i++
     }
+    console.log(i);
     console.log(ans)
 }
 
