@@ -1,4 +1,4 @@
-//liner search algorithm 
+//linear search algorithm 
 const users =[{username:'asd',email:'asd@gmail.com'},
               {username:'qwer', email:'qwer@gmail.com'},
               {username:'zxcv', email:'zxcv'}];
